@@ -1,0 +1,32 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+/dist
+
+# 本地环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+
+# 编辑器目录和文件
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+
+# 缓存目录
+.cache/
+
+# 包锁文件
+package-lock.json
+
+# 开发服务器临时文件
+.history/
+
+# Vite缓存
+.temp/

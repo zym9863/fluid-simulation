@@ -1,0 +1,17 @@
+{
+  "name": "fluid-simulation",
+  "version": "1.0.0",
+  "description": "基于SPH算法的Three.js流体模拟",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
