@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>基于SPH算法的流体模拟</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    }
+
+    #info {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 30px;
+      text-align: center;
+      color: #00fff2;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      border: 1px solid rgba(0, 255, 242, 0.3);
+      box-shadow: 0 0 20px rgba(0, 255, 242, 0.2),
+                inset 0 0 20px rgba(0, 255, 242, 0.1);
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    #instructions {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 30px;
+      text-align: center;
+      color: #00fff2;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+      border-radius: 10px;
+      border: 1px solid rgba(0, 255, 242, 0.3);
+      box-shadow: 0 0 20px rgba(0, 255, 242, 0.2),
+                inset 0 0 20px rgba(0, 255, 242, 0.1);
+      font-size: 0.9em;
+      letter-spacing: 1px;
+    }
+  </style>
+  <script type="module" crossorigin src="/fluid-simulation/assets/index-CgeL_VSr.js"></script>
+</head>
+<body>
+  <div id="info">基于SPH算法的流体模拟</div>
+  <div id="instructions">
+    拖动球体与流体交互 | 空格键重置模拟 | 鼠标拖动旋转视角 | 滚轮缩放
+  </div>
+  
+</body>
+</html>
